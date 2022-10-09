@@ -242,6 +242,7 @@ textarea {
   -webkit-appearance: none;
 }
 
+
 menu {
   display: block;
 }
@@ -292,11 +293,18 @@ button {
 /* ------------------------------------------------------------------- 
  * ## Media
  * ------------------------------------------------------------------- */
-img,
-video {
+img,video {
   max-width: 100%;
   height: auto;
 }
+
+img.site-logo-header{
+  max-width: 250%;
+  height: auto;
+}
+
+
+
 
 /* ------------------------------------------------------------------- 
  * ## Typography resets 
