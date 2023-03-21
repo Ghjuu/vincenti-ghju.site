@@ -13,7 +13,9 @@
   <meta name="author" content="" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" href="css/cv.css" />
-
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <link rel="shortcut icon" href="\images\logo\title-logo.png" type="image/x-icon" />
   <link rel="icon" href="\images\logo\title-logo.png" type="image/x-icon" />
 </head>
@@ -85,10 +87,56 @@
     <div class="home-content">
       <div class="row home-content__main">
         <div class="réalisations">
-
+            <div id="accordion">
+                <div class="card">
+                  <div class="card-header" id="headingOne">
+                    <h5 class="mb-0">
+                      <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Collapsible Group Item #1
+                      </button>
+                    </h5>
+                  </div>
+              
+                  <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                    <div class="card-body">
+                      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingTwo">
+                    <h5 class="mb-0">
+                      <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Collapsible Group Item #2
+                      </button>
+                    </h5>
+                  </div>
+                  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                    <div class="card-body">
+                      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingThree">
+                    <h5 class="mb-0">
+                      <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Collapsible Group Item #3
+                      </button>
+                    </h5>
+                  </div>
+                  <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                    <div class="card-body">
+                      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                    </div>
+                  </div>
+                </div>
+              </div>
         </div>
       </div>
   </section>
+  
+  
   <footer>
     <div class="row footer-main">
       <div class="col-six tab-full left footer-desc">
@@ -98,20 +146,11 @@
         Organisations option Solutions Logicielles et Applications Métiers.
       </div>
       <div class="col-six tab-full right footer-subscribe">
-        <h4>Get Notified</h4>
+        <h4>Merci!</h4>
         <p>
-          Quia quo qui sed odit. Quaerat voluptas autem necessitatibus vitae
-          aut non alias sed quia. Ut itaque enim optio ut excepturi deserunt
-          iusto porro.
+          Merci d'avoir visité mon site web ! Je tiens à exprimer ma gratitude envers tous les professionnels 
+          qui ont pris le temps de naviguer sur ce site et de découvrir mes projets et réalisations.
         </p>
-        <div class="subscribe-form">
-          <form id="mc-form" class="group" novalidate>
-            <input type="email" value="" name="EMAIL" class="email" id="mc-email" placeholder="Email Address"
-              required />
-            <input type="submit" name="subscribe" value="Subscribe" />
-            <label for="mc-email" class="subscribe-message"></label>
-          </form>
-        </div>
       </div>
     </div>
     <div class="row footer-bottom">
@@ -122,7 +161,7 @@
             <a href="https://colorlib.com/" target="_blank" rel="nofollow noopener">Colorlib</a></span>
         </div>
         <div class="go-top">
-          <a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-arrow-up" aria-hidden="true"></i></a>
+          <a class="smoothscroll" title="Back to Top" href="#top"><i class="icon-arrow-up" aria-hidden="true"></i></a>
         </div>
       </div>
     </div>
