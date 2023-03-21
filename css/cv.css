@@ -3525,6 +3525,10 @@
    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#cc000000', GradientType=0);
  }
  
+#cv-body{
+  background-color: #0c0c0c;
+}
+ 
  .s-home .overlay {
    position: absolute;
    top: 0;
